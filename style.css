@@ -1,5 +1,5 @@
 * { 
-	/* border: 1px dashed blue; */
+	border: 1px dashed blue;
 	box-sizing: border-box; }
 
 /* Clearfix */
@@ -93,6 +93,7 @@ nav a:last-of-type {
   width: 90%;
   max-width: 800px;
   margin: 0 auto 20px;
+  border: 1px #666 solid;
 }
 
 .column {
