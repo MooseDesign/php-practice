@@ -16,17 +16,18 @@
 	  <div class="column two-third">
 	    <?php 
 		    if ($userName == "Moose") { echo "<h3>Welcome Moose!</h3><p>Highly classified aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>"; }
-			else { echo "<h3>Login</h3>"; }
+			else { echo '<h3>Login</h3>
+			<form action="login" method="post">
+		
+				<label for="user">Username</label>
+				<input type="text" name="user">
+				<label for="password">Password</label>
+				<input type="password" name="password">
+				<button name="submit">Login</button>
+		
+			</form>'; }
 	    ?>
-	    <form action="login" method="post">
-		
-			<label for="user">Username</label>
-			<input type="text" name="user">
-			<label for="password">Password</label>
-			<input type="password" name="password">
-			<button name="submit">Login</button>
-		
-		</form>
+	    
 	   </div>
 	
 	  <div class="column one-third">
