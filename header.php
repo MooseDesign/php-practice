@@ -102,7 +102,7 @@
 	  <div class="row clearfix">
 	
 	    <!-- Our Logo -->
-	    <a href="index.php"><img class="logo" src="img/logo.png"/></a>
+	    <a href="index.php"><img class="logo" src="img/logo.svg"/></a>
 		    
 	    <?php include 'nav.php'; ?>
 	
