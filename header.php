@@ -81,6 +81,19 @@
 		</script>
 	<?php else : ?>	
 	<?php endif; ?>
+	
+	<!-- JS to make the footer pin to the bottom of the browser -->
+	
+	<script>
+		function(){
+	    vph = $(window).height();
+	
+	    if($(body) < vph) {
+	        $('footer').addClass('stuck');
+	    }
+	};
+	</script>
+	
   </head>
 
   <body id="<?php echo $pageID; ?>">

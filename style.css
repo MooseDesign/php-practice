@@ -199,6 +199,11 @@ footer p {
 	color: #888B8D;
 }
 
+.stuck {
+    position: absolute;
+    bottom: 0;
+}
+
 /* Form */
 
 form {
