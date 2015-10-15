@@ -6,13 +6,13 @@
 
 	<!-- Our site's hero area -->
 	<div class="hero subpage">
-	  <div class="row clearfix">
+	  <div class="row">
 	      <h1><?php echo $pageTitle; ?></h1>
 	  </div>
 	</div>
 
 	<!-- A row of one two-thirds column and one one-third column -->
-	<div class="row clearfix">
+	<div class="row">
 
 	  <div class="column two-third">
 	    <?php if($userName == "Moose") : ?>

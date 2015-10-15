@@ -1,0 +1,81 @@
+header {
+  background: #f58026;
+  padding: 10px;
+  margin-bottom: 0px;
+  
+  @media (max-width: $phone) {  
+	  text-align: center;
+  }
+}
+
+/* Cancel the header margin on page. */
+/*
+body#home header {
+  margin-bottom: 0;
+}
+*/
+
+header .row {
+  margin-bottom: 0;
+}
+
+.logo {
+  float: left;
+  margin-left: -30px;
+  width: 65px;
+  
+  
+  @media (max-width: $phone) {  
+	  float: none;
+	  width: 80px;
+  }
+}
+
+nav {
+  margin-top: 21px;
+}
+
+header nav {
+  float: right;
+  text-align: right;
+  
+  @media (max-width: $phone) {
+	  float: none;
+	  text-align: center;
+  }
+}
+
+nav a {
+  margin: 0 20px 10px 0;
+  padding: 10px;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px #fff solid;
+  border-radius: 4px;
+}
+
+nav a.on {
+  margin: 0 20px 10px 0;
+  padding: 10px;
+  font-size: 13px;
+  color: #d26b1b;
+  text-decoration: none;
+  border: 1px #d26b1b solid;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  margin: 0 20px 10px 0;
+  padding: 10px;
+  font-size: 13px;
+  color: #f58026;
+  background-color: #fff;
+  text-decoration: none;
+  border: 1px #fff solid;
+  border-radius: 4px;
+}
+
+nav a:last-of-type {
+  margin: 0;
+}

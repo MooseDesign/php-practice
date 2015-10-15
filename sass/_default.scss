@@ -1,0 +1,14 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica Neue', helvetica, sans-serif;
+}
+
+a {
+  @include ease;
+  color: #9a9a9a;
+
+  &:hover {
+  color: #fff;
+  }
+}

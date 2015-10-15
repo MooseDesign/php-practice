@@ -1,0 +1,41 @@
+$gutter: 2%;
+
+.row {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  @include clearfix;
+/*   border: 1px #666 solid; */
+}
+
+.column {
+  float: left;
+  margin-right: $gutter;
+  
+  @media (max-width: $phone) {
+  	width: 100% !important;
+    margin-right: 0;}
+
+	&.column.two-third {
+	  width: ((100% / 3) - ($gutter / 3)) * 2; // 65%
+	}
+	&.column.one-half {
+	  width: ((100% / 2) - ($gutter / 2)); // 49%
+	}
+	&.column.one-third {
+	  width: 32%
+	}
+	
+	&.column:last-of-type {
+	  margin-right: 0;
+	}
+	
+	&.column h3 {
+		font-family: 'Slabo 13px', serif;
+		color: #53565A;	
+	}
+	
+	&.column p {
+		color: #63666A;
+	}
+}

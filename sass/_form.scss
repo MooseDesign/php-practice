@@ -1,0 +1,32 @@
+form {
+	padding: 40px 0;
+	border-top: 1px #f58026 solid;
+}
+
+label {
+	font-family: 'Slabo 13px', serif;
+	font-size: 1rem;
+	color: #53565A;
+}
+
+input {
+	width: 100%;
+	margin: 0 0 20px 0;
+	padding: 10px;
+	font-size: 1rem;
+	background-color: #fff;
+	color: #53565A;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+button {
+	margin: 20px auto;
+	padding: 15px 20px;
+	font-size: 13px;
+	background-color: #f58026;
+	border: 0;
+	border-radius: 4px;
+	font-family: 'Slabo 13px', serif;
+	color: #fff;
+}

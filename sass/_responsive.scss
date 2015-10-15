@@ -1,0 +1,20 @@
+@media (max-width: 500px) {
+  header {
+    text-align: center;
+  }
+
+  .logo {
+    float: none;
+    width: 80px;
+  }
+
+  header nav {
+    float: none;
+    text-align: center;
+  }
+
+  .column {
+    width: 100% !important;
+    margin-right: 0;
+  }
+}
